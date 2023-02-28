@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
 
 body {
-    background-image: url('/assets/galaxy.jpg');
+    background-image: url('../assets/galaxy.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
