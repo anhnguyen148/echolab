@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+body {
+    background-image: url('/assets/galaxy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+#astronaul {
+  width: 20%;
+  height: 20%;
+}
+
+#dragText {
+  text-align: center;
+  color: white;
+  font-size: larger;
+  background-color: rgb(139, 93, 161);
+  border-radius: 30px;
+  font-family: 'Space Mono', monospace;
+  padding: 7px;
+}
+
+#spam {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+}
+
+#textContainer {
+  color: white;
+  text-align: center;
+}
+
+#welcome {
+  font-family: 'Space Mono', monospace;
+  font-size: 90px;
+}
+
+#astronaul1 {
+  width: 300px;
+}

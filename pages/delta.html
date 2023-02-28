@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../styles/delta.css" />
+    </head>
+    <body class="container mt-5">
+        <div>
+        <h2><strong>Name Facts</strong></h2>
+        <h4>Give me your name for some cool facts!</h4>
+        </div>
+
+        <div class="input-group mb-3">
+        <input
+            id="nameInput"
+            type="text"
+            class="form-control"
+            placeholder="Enter your name"
+            aria-label="name"
+            aria-describedby="basic-addon1"
+        />
+        </div>
+
+        <div class="mt-1">
+        <button id="seeNameBTN" class="btn btn-primary">
+            Click to see your name
+        </button>
+        </div>
+
+        <div class="container">
+            <h5 class="subContent title-word title-word-1"></h5>
+            <h1 class="content"></h1>
+        </div>
+
+        <div><h3 class="mb-4">Choose your birth month to see your spirit animal!</h3></div>
+        
+        <div>
+            <button class="btn btn-secondary" value="jan">January</button>
+            <button class="btn btn-secondary" value="feb">February</button>
+            <button class="btn btn-secondary" value="mar">March</button>
+            <button class="btn btn-secondary" value="apr">April</button>
+            <button class="btn btn-secondary" value="may">May</button>
+            <button class="btn btn-secondary" value="jun">June</button>
+            <button class="btn btn-secondary" value="jul">July</button>
+            <button class="btn btn-secondary" value="aug">August</button>
+            <button class="btn btn-secondary" value="sep">September</button>
+            <button class="btn btn-secondary" value="oct">October</button>
+            <button class="btn btn-secondary" value="nov">November</button>
+            <button class="btn btn-secondary" value="dec">December</button>
+        </div>
+
+        <h1 id="defaulText" class="mt-4">Your Animal Spirit is:</h1>
+        <h1 class="monthOutput"></h1>
+
+        <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+        ></script>
+        <script src="../scripts/delta.js"></script>
+    </body>
+</html>
+
